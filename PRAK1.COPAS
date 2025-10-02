@@ -1,0 +1,58 @@
+TUGAS 1
+# Tugas 1: Program menentukan nilai max dan min dari input
+# yang disimpan dalam sebuah List
+
+def find_max_min():
+    # Input list dari pengguna
+    input_str = input("Masukkan angka-angka dipisahkan oleh spasi: ")
+    numbers = list(map(int, input_str.split()))
+
+    if not numbers:
+        print("List kosong, tidak ada max dan min.")
+        return
+
+    max_val = max(numbers)
+    min_val = min(numbers)
+
+    print(f"Nilai maksimum: {max_val}")
+    print(f"Nilai minimum: {min_val}")
+
+
+if __name__ == "__main__":
+    print("Tugas 1: Max dan Min dari List")
+    find_max_min()
+
+
+
+
+
+
+
+
+TUGAS 2
+# Tugas 2: Program input data Mahasiswa
+# (list bersarang [[nama],[NIM],[email]])
+
+def input_mahasiswa():
+    data_mahasiswa = [[], [], []]  # [[nama], [NIM], [email]]
+
+    jumlah = int(input("Masukkan jumlah mahasiswa: "))
+
+    for i in range(jumlah):
+        nama = input(f"Masukkan nama mahasiswa {i+1}: ")
+        nim = input(f"Masukkan NIM mahasiswa {i+1}: ")
+        email = input(f"Masukkan email mahasiswa {i+1}: ")
+
+        data_mahasiswa[0].append(nama)
+        data_mahasiswa[1].append(nim)
+        data_mahasiswa[2].append(email)
+
+    print("Data Mahasiswa:")
+    print("Nama:", data_mahasiswa[0])
+    print("NIM:", data_mahasiswa[1])
+    print("Email:", data_mahasiswa[2])
+
+
+if __name__ == "__main__":
+    print("\nTugas 2: Input Data Mahasiswa")
+    input_mahasiswa()
