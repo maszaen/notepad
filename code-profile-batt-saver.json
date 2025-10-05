@@ -1,0 +1,135 @@
+{
+  "editor.fontFamily": "Google Sans Code",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "clustrix-icons",
+  "editor.minimap.renderCharacters": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.editor.enablePreview": false,
+  "editor.tabSize": 2,
+  "editor.cursorBlinking": "blink",
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.smoothScrolling": false,
+  "workbench.list.smoothScrolling": false,
+  "terminal.integrated.smoothScrolling": false,
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "window.zoomLevel": -1,
+  "window.titleBarStyle": "custom",
+  "editor.insertSpaces": true,
+  "editor.colorDecorators": true,
+  "editor.colorDecoratorsLimit": 100,
+  "powershell.promptToUpdatePowerShell": false,
+  "extensions.ignoreRecommendations": true,
+  "workbench.startupEditor": "none",
+  "explorer.confirmPasteNative": false,
+
+  "editor.semanticHighlighting.enabled": true,
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true
+  },
+
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontLigatures": true
+  },
+  "python.createEnvironment.trigger": "off",
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.fontLigatures": true,
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.fontLigatures": true
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.fontLigatures": true
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.fontLigatures": true
+  },
+  "[python]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.fontLigatures": true
+  },
+  "[java]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.fontLigatures": true
+  },
+  "editor.detectIndentation": false,
+  "indentRainbow.colorOnWhiteSpaceOnly": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.svg": "default"
+  },
+  "terminal.integrated.scrollback": 1000,
+  "editor.fontVariations": true,
+  "terminal.integrated.fontLigatures.enabled": true,
+  "editor.formatOnPaste": true,
+  "editor.allowVariableFontsInAccessibilityMode": true,
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.fontFamily": "Google Sans Code",
+  "terminal.integrated.fastScrollSensitivity": 3,
+  "editor.accessibilitySupport": "off",
+  
+  "chat.tools.terminal.autoApprove": {
+    "npm run node": true
+  },
+  "chat.agent.maxRequests": 50,
+  "chat.fontSize": 15,
+  "chat.fontFamily": "OpenAI Sans Variable",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "chat.editor.fontFamily": "Google Sans Code",
+  "security.workspace.trust.untrustedFiles": "open",
+  "chat.editor.fontSize": 12.4,
+  "chat.editing.autoAcceptDelay": 2,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "workbench.secondarySideBar.showLabels": false,
+  "diffEditor.codeLens": true,
+  "chat.editing.confirmEditRequestRemoval": false,
+  "chat.editor.lineHeight": 1.35,
+  "chat.editor.fontWeight": "400",
+  "editor.fontSize": 12.8,
+  "editor.lineHeight": 1.4,
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.minimap.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "editor.defaultColorDecorators": "always",
+  "workbench.colorTheme": "Clustrix Theme",
+  "chat.tools.global.autoApprove": true,
+  "database-client.autoSync": true,
+  
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.hg/store/**": true
+  },
+  
+  "git.autorefresh": false,
+  "git.autofetch": false,
+  
+  "extensions.autoUpdate": false,
+  "extensions.autoCheckUpdates": false,
+  
+  "telemetry.telemetryLevel": "off"
+}
