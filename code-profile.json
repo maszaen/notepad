@@ -74,7 +74,7 @@
   "terminal.integrated.fontFamily": "Google Sans Code",
   "terminal.integrated.fastScrollSensitivity": 3,
   "editor.accessibilitySupport": "off",
-  "editor.smoothScrolling": false,
+  "editor.smoothScrolling": true,
   "chat.tools.terminal.autoApprove": {
     "npm run node": true
   },
