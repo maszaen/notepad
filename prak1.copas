@@ -23,12 +23,6 @@ if __name__ == "__main__":
     find_max_min()
 
 
-
-
-
-
-
-
 TUGAS 2
 # Tugas 2: Program input data Mahasiswa
 # (list bersarang [[nama],[NIM],[email]])
