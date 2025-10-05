@@ -1,13 +1,18 @@
 {
   "editor.fontFamily": "Google Sans Code",
   "editor.fontLigatures": true,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "clustrix-icons",
   "editor.minimap.renderCharacters": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "workbench.editor.enablePreview": false,
   "editor.tabSize": 2,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
   "window.zoomLevel": -1,
+  "window.titleBarStyle": "custom",
   "editor.insertSpaces": true,
   "editor.colorDecorators": true,
   "editor.colorDecoratorsLimit": 500,
@@ -15,6 +20,12 @@
   "extensions.ignoreRecommendations": true,
   "workbench.startupEditor": "none",
   "explorer.confirmPasteNative": false,
+
+  "editor.semanticHighlighting.enabled": true,
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true
+  },
+
   "github.copilot.enable": {
     "*": false,
     "plaintext": false,
@@ -103,5 +114,6 @@
   "chat.commandCenter.enabled": false,
   "editor.defaultColorDecorators": "always",
   "workbench.colorTheme": "Clustrix Theme",
-  "chat.tools.global.autoApprove": true
+  "chat.tools.global.autoApprove": true,
+  "database-client.autoSync": true
 }
